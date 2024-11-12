@@ -4,19 +4,16 @@
     padding:0;
     font-family: 'Open Sans';
 }
-header {
-    background: url(img/header.jpg);
-    background-size: 275px 183px; 
-    background-repeat: no-repeat; 
-    background-position: center;
-    height: 183px;
-    width: 275px; 
-    margin: 0 auto; 
+header{
+    background: url(img/AccesMt.png);
+    background-size: cover;
+    background-position:center;
+    height: 300px;
 }
-
-header h1 {
+header h1{
     text-align: center;
     font-size: 35px;
+    /* background-color: #000; */
     color: #fff;
     padding: 30px 0;
 }

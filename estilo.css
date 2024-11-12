@@ -6,12 +6,12 @@
 }
 header {
     background: url(img/header.jpg);
-    background-size: 275px 183px; /* Ajusta el tamaño de la imagen al tamaño del header */
-    background-repeat: no-repeat; /* Evita que la imagen se repita si sobra espacio */
+    background-size: 275px 183px; 
+    background-repeat: no-repeat; 
     background-position: center;
     height: 183px;
-    width: 275px; /* Ancho especificado de la imagen */
-    margin: 0 auto; /* Centrar el header en el contenedor */
+    width: 275px; 
+    margin: 0 auto; 
 }
 
 header h1 {

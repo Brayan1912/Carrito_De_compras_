@@ -4,16 +4,19 @@
     padding:0;
     font-family: 'Open Sans';
 }
-header{
+header {
     background: url(img/header.jpg);
-    background-size: cover;
-    background-position:center;
+    background-size: 275px 183px; /* Ajusta el tamaño de la imagen al tamaño del header */
+    background-repeat: no-repeat; /* Evita que la imagen se repita si sobra espacio */
+    background-position: center;
     height: 183px;
+    width: 275px; /* Ancho especificado de la imagen */
+    margin: 0 auto; /* Centrar el header en el contenedor */
 }
-header h1{
+
+header h1 {
     text-align: center;
     font-size: 35px;
-    /* background-color: #000; */
     color: #fff;
     padding: 30px 0;
 }

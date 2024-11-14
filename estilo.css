@@ -219,12 +219,16 @@ footer {
     position: fixed; /* Para que el footer flote al final de la pantalla */
     bottom: 0;
     width: 100%;
-    height: 50px; /* Ajusta según el tamaño deseado del footer */
+    height: 30px; /* Ajusta según el tamaño deseado del footer */
 }
 
 .copyright_row {
     display: flex;
     align-items: center;
 }
-
+.mini-logo {
+    width: 5px; /* Ajusta el tamaño del logo */
+    height: 5px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
 

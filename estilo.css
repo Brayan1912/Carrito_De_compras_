@@ -22,8 +22,9 @@ header h1{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* oculto lo que queda fuera del .contenedor */
     contain: paint;
+    flex: 1;
+    padding-bottom: 60px;
 }
 /* SECCION CONTENEDOR DE ITEMS */
 .contenedor .contenedor-items{
@@ -223,8 +224,8 @@ footer {
     align-items: center;
 }
 .mini-logo {
-    width: 5px; /* Ajusta el tamaño del logo */
-    height: 5px;
+    width: 20px; /* Ajusta el tamaño del logo */
+    height: 20px;
     margin-right: 10px; /* Espacio entre el logo y el texto */
 }
 

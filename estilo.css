@@ -193,7 +193,29 @@ header h1{
 .carrito-total .btn-pagar:hover{
     scale: 1.05;
 }
-
+footer {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .copyright_row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mini-logo {
+    width: 20px; /* Ajusta el tamaño del logo */
+    height: 20px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
     .contenedor {
